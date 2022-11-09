@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylek.css">
+</head>
+<body>
+  <header class="header">
+    <nav>
+        <a class="logo" href="index.html"><img src="img/Logo.png" alt="" width="60px"></a>
+
+        <ul class="menu">
+            <li class="li"><a href="serviços.html" class="anav">SERVIÇO</a></li>
+            <li class="li" id="navcontato"><a href="contato.html" class="anav">CONTATO</a></li>
+            <li class="li"><a href="login.html"class="anav" >LOGIN</a></li>
+        </ul>
+    </nav>
+</header>
+
+  <h1 class="cadastroh1">CADASTRO</h1>
+    <form class="needs-validation" novalidate>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom01"></label>
+            <input type="text" class="form-control" id="validationCustom01nome" placeholder="Nome Completo" value="" required>
+            <div class="invalid-feedback" id="invalid-feedback-cep">
+              Necessário inserir um nome para prosseguir.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom02"></label>
+            <input type="text" class="form-control" id="validationCustom02rg" placeholder="RG" value="" required>
+            <div class="invalid-feedback" id="invalid-feedback-cep">
+              Por favor, informe um RG válido.
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col1">
+            <label for="validationCustom01"></label>
+            <input type="email" class="form-control" id="validationCustom01email" placeholder="E-mail" value="" required>
+            <div class="invalid-feedback" id="invalid-feedback-cep2">
+              Por favor, informe um e-mail válido.
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom01"></label>
+            <div class="pass">
+              <input type="password" class="senha" id="password" placeholder="Crie sua senha" value="" required>
+              <img src="img/eye_open.png" class="btns">
+            </div>
+            <div class="valid-feedback">
+              Tudo certo!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom01"></label>
+            <div class="pass">
+              <input type="password" class="senha2" id="password" placeholder="Confirme sua senha" value="" required>
+              <img src="img/eye_open.png" class="btns2">
+            </div>
+            <div class="valid-feedback">
+              Tudo certo!
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col1">
+            <label for="validationCustom05"></label>
+            <input type="text" class="form-control" id="cep" placeholder="CEP" required>
+            <div class="invalid-feedback" id="invalid-feedback-cep2">
+              Por favor, informe um CEP válido.
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom03"></label>
+            <input type="text" class="form-control" id="cidade" placeholder="Cidade" required>
+            <div class="invalid-feedback">
+              Por favor, informe uma cidade válida.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom04"></label>
+            <input type="text" class="form-control" id="estado" placeholder="Estado" required>
+            <div class="invalid-feedback">
+              Por favor, informe um estado válido.
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom03"></label>
+            <input type="text" class="form-control" id="bairro" placeholder="Bairro" required>
+            <div class="invalid-feedback">
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom04"></label>
+            <input type="text" class="form-control" id="logradouro" placeholder="Logradouro" required>
+            <div class="invalid-feedback">
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-4 mb-3" id="numero">
+            <label for="validationCustom03"></label>
+            <input type="text" class="form-control" id="numero" placeholder="Número" required>
+            <div class="invalid-feedback">
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom04"></label>
+            <input type="text" class="form-control" id="complemento" placeholder="Complemento" required>
+            <div class="invalid-feedback">
+            </div>
+          </div>
+        </div>
+        <div class="form-groupt">
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Li e estou de acordo com as políticas da empresa e políticas de privacidade.
+              </label>
+              <div class="invalid-feedback">
+                Você deve concordar, antes de continuar.
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit" id="botao" onclick="alert('Cadastro efetuado com sucesso')">Cadastrar</button>
+      </form>
+
+      <footer>
+        <div class="rodape">
+          <h3>Inicio</h3>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Produtos</a></li>
+          </ul>
+        </div>
+  
+        <div class="rodape">
+          <h3>Fale conosco</h3>
+          <ul>
+            <li><a href="#">Telefone</a></li>
+            <li><a href="#">E-mail</a></li>
+            <li><a href="#">Chat</a></li>
+          </ul>
+        </div>
+  
+        <div class="rodape">
+          <h3>Rede Sociais</h3>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+  
+        <div class="rodape">
+          <h3>Sobre nós</h3>
+          <p>Somos uma empresa de tecnologia criada por amantes da tecnologia e robòtica, criada durante a pandemia
+            para solucionar alguns dos problemas da vida em isolamento.
+          </p>
+        </div>
+  
+      </footer> 
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

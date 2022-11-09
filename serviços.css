@@ -1,0 +1,12 @@
+.card-deck{
+    display: flex;
+    margin: auto;
+    padding-left: 250px;
+}
+.card-body{
+    margin: center;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
