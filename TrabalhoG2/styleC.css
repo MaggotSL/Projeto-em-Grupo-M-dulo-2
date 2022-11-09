@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@700&display=swap');
+.form-check-label{
+    color: #332b5c !important;
+}
+#botao{
+    background-color: #4ac390;
+    width: 500px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 5px;
+}
+input{
+    border: 3px solid #332b5c !important;
+}
+input::placeholder{
+    color: #332b5ca8 !important;
+}
+.btn-primary:hover{
+    background-color: #716ea8 !important;
+    border-color: rgba(255, 255, 255, 0);
+}
+.btn-primary{
+    border-color: rgba(255, 255, 255, 0);
+}
+form{
+    margin: auto;
+    width: 50%;
+    align-items: center !important;
+}
+.cadastroh1{
+    text-align: center;
+    font-family: 'Trispace', sans-serif;
+    font-weight: 700;
+    color: #332b5c;
+}
+.form-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+    justify-content: center;
+    height: 70px;
+}
+#validationCustom01email{
+    width: 850px;
+    margin: auto;
+}
+#validationCustom05cep{
+    width: 850px;
+    margin: auto;
+}
+#cidade{
+    width: 420px;
+}
+.form-group{
+    padding-top: 20px;
+}
+.form-groupt{
+    text-align: center;
+}
+.col1{
+    width: 850px;
+}
+#validationCustom01nome, #validationCustom02rg, #validationCustom01email, #password, #validationCustom02, #cep, #cidade, #estado, #logradouro, #bairro, #numero, #complemento {
+    height: 50px;
+}
+.login{
+    background-color: #332b5c;
+    width: 500px;
+    height: 430px;
+    border-radius: 0.25rem;
+    margin-top: 120px;
+}
+#login-button{
+    background-color: #4ac390;
+    width: 300px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 5px;
+    margin: auto;
+}
+#exampleInputEmail1, #senha3{
+    border: 3px solid #4ac390 !important;
+    width: 300px;
+    margin: auto;
+    height: 50px;
+}
+.loginh2{
+    text-align: center;
+    font-family: 'Trispace', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 50px;
+}
+#emailLogin{
+    margin-bottom: 0;
+}
+#passwordlogin{
+    padding: 0;
+}
+#form-group-email{
+    margin-bottom: 0;
+}
+#cadastre{
+    text-align: center;
+    margin-top: 10px;
+    color: #332b5c;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 200px;
+}
+.bot{
+    background-color: #4ac390;
+    width: 300px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 5px;
+}
+#cadastre2 a{
+    color: #332b5c !important;
+    margin-left: 5px;
+    text-decoration: underline !important   ; 
+    
+}
+#esqueceu-senha{
+    color: white;
+    margin-left: 270px;
+    margin-top: 20px;
+}
+.form-row .pass img{
+width: 40px;
+}
+.form-row .pass img{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    color: #555;
+    transform: translateY(-50%);
+    margin-top: 10px;
+    cursor: pointer;
+    }
+    
+#password{
+    width: 420px;
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.login .pass2 .btns3{
+    position: absolute;
+    width: 40px;
+    top: 428px;
+    left: 1380px;
+    color: #555;
+    transform: translateY(-50%);
+    margin-top: 10px;
+    cursor: pointer;
+}
+#senha3{
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.senha3{
+display: block;
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border-radius: 0.25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

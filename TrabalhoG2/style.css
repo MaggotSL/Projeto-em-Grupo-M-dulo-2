@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    border: solid;
+    background-color: #332b5c;
+    padding: 10px;  
+    
+}
+
+nav{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+.li{
+    margin-top: 20px;
+    padding: 5px 30px 5px 30px;
+}
+a{
+    color: white !important;
+    text-decoration: none !important;
+}
+.menu{
+    transition: background .4s;
+}
+
+.menu li:hover{
+    background-color: #716ea8;
+    transition: background .4s;
+
+}
+/* ============================= CORPO ================== */
+
+.imgC{
+    border: solid 1px #332b5c;
+    border-radius: 50px;
+    display: flex;
+    text-align: justify;
+    margin: 0 20px 0px 20px;
+    background-color: #716ea8;
+    color: white;
+    font-size: 3em;
+}
+
+
+/* ============================== RODAPÉ ====================== */
+
+footer{
+    width: 100%;
+    min-height: 250px;
+    background: #332b5c;
+    display: flex;
+}
+footer .rodape{
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+}
+footer .rodape:nth-child(4){
+    width: 400px;
+}
+
+.rodape ul li{
+    margin: 10px 0px 0px -30px ;
+    list-style: none;
+}
+
+.rodape h3{
+    color: white;
+}
+
+.rodape ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.rodape ul li a:hover{
+    color: #716ea8;
+}
+.rodape p{
+    color: white;
+    text-align: justify;
+}
